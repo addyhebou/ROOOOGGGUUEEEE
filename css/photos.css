@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+}
+.flex-container {
+    display: flex;
+    flex-flow: column wrap;
+    /* background-color: DodgerBlue; */
+    width: 33.33334%;
+    height: 2000px;
+}
+
+.flex-container img{
+    width: 100%;
+    padding: 20px;
+    filter: grayscale(100%);
+}
+
+.flex-container img:hover{
+    filter: grayscale(0%);
+}
+
+.menuPic:hover{
+    opacity: 0.5;
+}
+
+.menuPic{
+    position: fixed;
+    left: 90%;
+    width: 5%;
+    top: 5%;
+    /* background-color: crimson; */
+}
+
+.menuPicWhite{
+    display: none;
+    position: fixed;
+    width: 5%;
+    top: 5%;
+    right: 5%;
+}
+
+.menuPicWhite:hover{
+    opacity: 0.5;
+}
+

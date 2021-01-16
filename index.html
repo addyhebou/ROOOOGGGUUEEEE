@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+    <link rel = "stylesheet" href = "css/grid.css">
+    <link rel = "stylesheet" href = "css/main.css">
+
+</head>
+<body id = "bckgrnd">
+    <header>
+        <div class = "row">
+            <!-- <div class = "col-11"></div> -->
+            <!-- <div class = "col-1"><img style = "width: 50%;" src = "pics/icons/skinny hamburger black.png"></div> -->
+        </div>
+    </header>
+    <div class = "row">
+        <div class = "col-0"></div>
+        <div class = "col-0 homeColumn"><a href = "photos.html"><img src = "pics/asaad.jpeg" style = "width: 200%; transform: translateX(-90px);"></a></div>
+        <div class = "col-0 homeColumn"><a href = "models.html"><img src = "pics/mo and dak fire.jpeg" style = "width: 150%; transform: translateX(-90px);"></a></div>
+        <div class = "col-0 homeColumn"><a href = "photos.html"><img src = "pics/mo.jpeg" style = "width: 250%; transform: translateX(-190px);"></a></div>
+        <div class = "col-0"></div>
+    </div>
+    <div class = "row">
+      <div class = "col-0"></div>
+      <div class = "col-0 columnText">Photos</div>
+      <div class = "col-0 columnText">Models</div>
+      <div class = "col-0 columnText">Contact</div>
+      <div class = "col-0"></div>
+    </div>
+    <div class = "row" style = "text-align: center; height: 150px;">
+        <img width = "30%" src = "pics/rogue.PNG">
+    </div>
+    <div id = "whiteLogo" class = "row nightLogo" >
+        <img width = "30%" src = "pics/icons/rogue white logo.PNG">
+    </div>
+    <footer>
+        <div class = "row">
+            <div class = "col-1">
+                <img id = "moon" class = "moon" onclick = "shiftColorsToNight()"style = "padding: 10px"width = "30%" src = "pics/icons/moonIcon.png">
+                <img id = "sun" class = "sun" onclick = "shiftColorsToDay()"style = "padding: 10px"width = "30%" src = "pics/icons/sun.png">
+            </div>
+            <div class = "col-11">
+            </div>
+        </div>
+    </footer>
+</body>
+<script src = "js/nightMode.js"></script>
+
+</html>

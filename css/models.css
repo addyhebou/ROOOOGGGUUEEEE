@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
+.linktoPic{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.caption{
+    font-size: 25px;
+    padding: 30px;
+    color: black;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.modelName{
+    text-align: center;
+    font-size: 120px;
+    font-family: 'Inconsolata', monospace;
+}
+
+/* .linktoPic:hover{
+    opacity: 0.5;
+} */
+
+.bio{
+    font-family: 'Titillium Web', sans-serif;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .content {
+padding-top: 60px;
+}
+  
+.content {
+    padding: 16px;
+  }
+
+
+
